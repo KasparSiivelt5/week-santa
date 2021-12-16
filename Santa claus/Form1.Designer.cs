@@ -30,87 +30,87 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.Snow = new System.Windows.Forms.PictureBox();
+            this.Santa = new System.Windows.Forms.PictureBox();
+            this.Tree = new System.Windows.Forms.PictureBox();
+            this.ground = new System.Windows.Forms.PictureBox();
+            this.house = new System.Windows.Forms.PictureBox();
+            this.sun = new System.Windows.Forms.PictureBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.timer2 = new System.Windows.Forms.Timer(this.components);
             this.timer3 = new System.Windows.Forms.Timer(this.components);
             this.timer4 = new System.Windows.Forms.Timer(this.components);
             this.timer5 = new System.Windows.Forms.Timer(this.components);
             this.timer6 = new System.Windows.Forms.Timer(this.components);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Snow)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Santa)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Tree)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ground)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.house)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sun)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // Snow
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(423, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(162, 118);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.Snow.Image = ((System.Drawing.Image)(resources.GetObject("Snow.Image")));
+            this.Snow.Location = new System.Drawing.Point(423, 12);
+            this.Snow.Name = "Snow";
+            this.Snow.Size = new System.Drawing.Size(162, 118);
+            this.Snow.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Snow.TabIndex = 0;
+            this.Snow.TabStop = false;
+            this.Snow.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // pictureBox2
+            // Santa
             // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(29, 154);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(247, 138);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            this.Santa.Image = ((System.Drawing.Image)(resources.GetObject("Santa.Image")));
+            this.Santa.Location = new System.Drawing.Point(29, 154);
+            this.Santa.Name = "Santa";
+            this.Santa.Size = new System.Drawing.Size(247, 138);
+            this.Santa.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Santa.TabIndex = 1;
+            this.Santa.TabStop = false;
+            this.Santa.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
-            // pictureBox3
+            // Tree
             // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(388, 314);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(224, 159);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 2;
-            this.pictureBox3.TabStop = false;
+            this.Tree.Image = ((System.Drawing.Image)(resources.GetObject("Tree.Image")));
+            this.Tree.Location = new System.Drawing.Point(388, 314);
+            this.Tree.Name = "Tree";
+            this.Tree.Size = new System.Drawing.Size(224, 159);
+            this.Tree.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Tree.TabIndex = 2;
+            this.Tree.TabStop = false;
             // 
-            // pictureBox4
+            // ground
             // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(29, 479);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(776, 78);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 3;
-            this.pictureBox4.TabStop = false;
+            this.ground.Image = ((System.Drawing.Image)(resources.GetObject("ground.Image")));
+            this.ground.Location = new System.Drawing.Point(29, 479);
+            this.ground.Name = "ground";
+            this.ground.Size = new System.Drawing.Size(776, 78);
+            this.ground.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.ground.TabIndex = 3;
+            this.ground.TabStop = false;
             // 
-            // pictureBox5
+            // house
             // 
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(637, 360);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(145, 113);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 4;
-            this.pictureBox5.TabStop = false;
+            this.house.Image = ((System.Drawing.Image)(resources.GetObject("house.Image")));
+            this.house.Location = new System.Drawing.Point(637, 360);
+            this.house.Name = "house";
+            this.house.Size = new System.Drawing.Size(145, 113);
+            this.house.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.house.TabIndex = 4;
+            this.house.TabStop = false;
             // 
-            // pictureBox6
+            // sun
             // 
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(637, 12);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(136, 117);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 5;
-            this.pictureBox6.TabStop = false;
+            this.sun.Image = ((System.Drawing.Image)(resources.GetObject("sun.Image")));
+            this.sun.Location = new System.Drawing.Point(637, 12);
+            this.sun.Name = "sun";
+            this.sun.Size = new System.Drawing.Size(136, 117);
+            this.sun.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.sun.TabIndex = 5;
+            this.sun.TabStop = false;
             // 
             // timer6
             // 
@@ -124,35 +124,35 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Aqua;
             this.ClientSize = new System.Drawing.Size(805, 556);
-            this.Controls.Add(this.pictureBox6);
-            this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.sun);
+            this.Controls.Add(this.house);
+            this.Controls.Add(this.ground);
+            this.Controls.Add(this.Tree);
+            this.Controls.Add(this.Santa);
+            this.Controls.Add(this.Snow);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyUp);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Snow)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Santa)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Tree)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ground)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.house)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sun)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox Snow;
+        private System.Windows.Forms.PictureBox Santa;
+        private System.Windows.Forms.PictureBox Tree;
+        private System.Windows.Forms.PictureBox ground;
+        private System.Windows.Forms.PictureBox house;
+        private System.Windows.Forms.PictureBox sun;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Timer timer2;
         private System.Windows.Forms.Timer timer3;
